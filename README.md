@@ -1,2 +1,2 @@
 # cryptogame
-crypto game based on cypher and cyher vigenere algorythm
+crypto game based on cipher and cipher vigenere algorythm
