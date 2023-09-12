@@ -2,14 +2,20 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports" : true,
+    "baseUrl": "./src/",
     "esModuleInterop" : true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "module": "es6",
-    "outDir": "./dist/",
     "noImplicitAny": true,
+    "outDir": "./dist/",
+    "paths": {
+      "containers": ["./containers/*"],
+      "hooks": ["./hooks/*"],
+      "pages": ["./pages/*"]
+    },
     "target": "es5",
   },
-  "include": ["src"],
+  "include": ["./**/*.ts", "./**/*.tsx"],
   "files": ["custom.d.ts"]
 }
