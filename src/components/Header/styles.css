@@ -1,0 +1,32 @@
+header {
+
+    & nav {
+        border-bottom: 1px solid rgb(196, 196, 32);
+
+        & ul {
+            list-style: none;
+            padding-left: 10px;
+
+            & li {
+                display: inline-block;
+                color: #FFFF;
+                & a {
+                    color: #FFFF;
+                    font-weight: normal;
+                    font-size: 16px;
+                }
+                & a::after {
+                    display: inline-block;
+                    color: #FFFF;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    content: '|';
+                    font-size: 100%;
+                    font-weight: bold;
+                }
+            }
+              
+              
+        }
+    }
+}
