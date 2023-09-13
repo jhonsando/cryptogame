@@ -15,7 +15,14 @@ body {
   /* Set a background color that will be displayed
   while the background image is loading */
   background-color: #464646;
+  position: relative;
+  min-height: calc(100vh - 17px);
+}
 
+body::after {
+  content: '';
+  display: block;
+  height: 100px; /* Set same as footer's height */
 }
 
 code {

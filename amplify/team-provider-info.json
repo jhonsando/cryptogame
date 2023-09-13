@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "cryptogame25294b06": {}
+      },
+      "api": {
+        "cryptogame": {}
       }
     }
   }

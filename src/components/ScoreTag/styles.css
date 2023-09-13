@@ -1,0 +1,19 @@
+.score-tag-container {
+    display: flex;
+    gap: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    & .score-tag-section {
+        border: 1px solid #000;
+        border-radius: 8px;
+        padding: 5px;
+        text-align: center;
+        & h3, p {
+            margin: 0;
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+    }
+}

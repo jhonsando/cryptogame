@@ -14,6 +14,7 @@ module.exports = {
   resolve: {
     alias: {
       containers: path.resolve(__dirname, './src/containers/'),
+      graphql: path.resolve(__dirname, './src/graphql/'),
       hooks: path.resolve(__dirname, './src/hooks/'),
       pages: path.resolve(__dirname, './src/pages/')
     },

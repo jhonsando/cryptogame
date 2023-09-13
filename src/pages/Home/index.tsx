@@ -1,4 +1,4 @@
-import Content from 'containers/Content'
+import Content from 'components/Content'
 
 const Home = ():JSX.Element => {
   return (

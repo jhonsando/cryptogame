@@ -1,8 +1,8 @@
 
 
-import Login from 'components/Login';
 import AuthLayer from 'containers/AuthLayer';
 import Layout from 'containers/Layout';
+import Login from 'containers/Login';
 import GameBoard from 'pages/GameBoard';
 import Home from 'pages/Home';
 import ScoreBoard from 'pages/ScoreBoard';

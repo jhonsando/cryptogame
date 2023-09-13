@@ -1,4 +1,28 @@
 {
+  "api": {
+    "cryptogame": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "apiKeyConfig": {
+                "apiKeyExpirationDate": "2023-10-13T07:08:52.774Z",
+                "apiKeyExpirationDays": 30,
+                "description": "publicaws"
+              },
+              "authenticationType": "API_KEY"
+            }
+          ],
+          "defaultAuthentication": {
+            "authenticationType": "AWS_IAM"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
     "cryptogame25294b06": {
       "customAuth": false,
