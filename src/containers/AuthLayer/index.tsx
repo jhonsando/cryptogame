@@ -5,7 +5,6 @@ const AuthLayer = ({ children }: { children: JSX.Element}):JSX.Element => {
   const location = useLocation();
   const isLogged = useCheckUserStatus();
   if (!isLogged) {
-    console.log('No logged',isLogged)
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
   return children;

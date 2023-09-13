@@ -4,7 +4,7 @@ import { useAuthenticator } from '@aws-amplify/ui-react';
 const useCheckUserStatus = (): boolean => {
   const { route } = useAuthenticator((context) => [context.route]);  
   const [isAuthenticated, setIsAuthenticated] = React.useState<boolean>(route === 'authenticated');
-  console.log('route ',route)
+
   React.useEffect(()=>{
     if (route === 'authenticated') {
         setIsAuthenticated(true);
