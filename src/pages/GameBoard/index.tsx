@@ -35,10 +35,7 @@ const Game = ({cancelGame}:{cancelGame: ()=>void}):JSX.Element=>{
 
   React.useEffect(() => {
     const delay = 1;
-    // useRef value stored in .current property
     timer.current = setInterval(() => setCounter((v) => v + 1), delay * 1000);
-
-    // clear on component unmount
     return () => {
       clearInterval(timer.current);
     };
@@ -46,9 +43,7 @@ const Game = ({cancelGame}:{cancelGame: ()=>void}):JSX.Element=>{
 
   React.useEffect(()=>{
     if(decryptedWords.length===0){
-      if( data.length >0){
       setDecryptedWords(data);
-      }
     }
   },[data]);
 
