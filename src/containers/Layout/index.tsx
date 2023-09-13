@@ -1,5 +1,5 @@
-import { Outlet ,useNavigate, NavLink } from 'react-router-dom';
-import { useAuthenticator, Button, Heading, View } from '@aws-amplify/ui-react';
+import { Outlet } from 'react-router-dom';
+import { useAuthenticator } from '@aws-amplify/ui-react';
 import useCheckUserStatus from 'hooks/authChecker';
 import Footer from 'components/Footer';
 import Header from 'components/Header';

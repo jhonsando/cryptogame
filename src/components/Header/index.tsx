@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import './styles.css'
 
 const Header = ({isLogged, handleLogout}:{isLogged:boolean, handleLogout: Function}):JSX.Element => {
-    return (      <header>
+    return (<header>
         {isLogged && (
           <nav>
             <ul>
