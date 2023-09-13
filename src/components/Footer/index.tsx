@@ -4,7 +4,7 @@ const Footer = ()=> {
     <footer aria-label="contentinfo">
         <section aria-label='Author and contact'>
             <h2 id="author">Jhon Jairo Sandoval Ramirez</h2>
-            <a href="https://www.linkedin.com/in/js171a2418a" aria-labelledby='author' title="Linkedin of Jhon Jairo Sandoval Ramirez, author" target='_blank' id='linkedin_link'>
+            <a href="https://www.linkedin.com/in/js171a2418a" aria-label="Link to author linkedin profile: Jhon Jairo Sandoval Ramirez" target='_blank' id='linkedin_link'>
             <svg 
                 aria-hidden="true"
                 focusable="false" 
