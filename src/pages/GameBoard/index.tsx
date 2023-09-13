@@ -43,7 +43,9 @@ const Game = ({cancelGame}:{cancelGame: ()=>void}):JSX.Element=>{
 
   React.useEffect(()=>{
     if(decryptedWords.length===0){
+      if( data && data.length >0){
       setDecryptedWords(data);
+      }
     }
   },[data]);
 
