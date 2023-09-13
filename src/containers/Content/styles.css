@@ -1,0 +1,28 @@
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    & .centered-content {
+        max-width: 800px;
+        min-width: 650px;
+        padding: 10px;
+        text-align: justify;
+        border-radius: 8px;
+        border: 1px solid #000;
+        color: #000;
+        background-color: #FFFF;
+        & article {
+            & h2 {
+                font-size: 20px;
+                margin: 5px 0;
+            }
+            & p {
+                font-size: 14px;
+                margin: 5px 0;
+            }
+        }
+    }
+
+}
